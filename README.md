@@ -1,13 +1,13 @@
 ![MasterHead](https://cdna.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433)
 <h1 align="center">Hi 👋, I'm Ata Yagiz</h1>
-<h3 align="center">A passionate developer from Turkey</h3>
+<h3 align="center">A passionate developer from Türkiye</h3>
 <img align="right" alt="Coding" width="400" src="https://miro.medium.com/v2/resize:fit:996/0*sp42a5GmqT_VavSq.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=yegee0&label=Profile%20views&color=0e75b6&style=flat" alt="yegee0" /> </p>
 
-- 🌱 I’m currently learning **Java, Swift**
+- 🌱 I’m currently learning **Tensorflow, Pytorch**
 
-- 💬 Ask me about **C++ and JAVA**
+- 💬 Ask me about **C++ and Python**
 
 - 📫 How to reach me **yagizata05@gmail.com**
 
