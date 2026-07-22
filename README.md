@@ -28,8 +28,8 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=yegee0&show_icons=true&theme=dracula" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yegee0&layout=compact&theme=dracula" width="48%" />
+<img src="https://github-stats-extended.vercel.app/api?username=yegee0&show_icons=true&theme=dracula" width="48%" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=yegee0&layout=compact&theme=dracula" width="48%" />
 
 </div>
 
