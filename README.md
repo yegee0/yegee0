@@ -42,11 +42,6 @@
 
 </div>
 
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=yegee0&show_icons=true&locale=en&layout=compact" alt="yegee0" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=yegee0&show_icons=true&locale=en" alt="yegee0" /></p>
-
 <picture data-importer="pacman">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yegee0/yegee0/pacman-output/galaga-contribution-graph-dark.svg?game=galaga">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yegee0/yegee0/pacman-output/galaga-contribution-graph.svg?game=galaga">
