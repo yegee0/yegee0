@@ -31,15 +31,6 @@
 <img src="https://github-readme-stats.vercel.app/api?username=yegee0&show_icons=true&theme=dracula" width="48%" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yegee0&layout=compact&theme=dracula" width="48%" />
 
-<br>
-
-<img src="https://streak-stats.demolab.com/?user=yegee0&theme=dracula" width="48%" />
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=yegee0&theme=dracula" width="48%" />
-
-<br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=yegee0&theme=dracula&no-frame=true&row=1&column=7" width="95%" />
-
 </div>
 
 ### Commits in Space
