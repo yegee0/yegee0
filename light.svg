@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500">
+  <style>
+    .terminal-text { font-family: ui-monospace, "Cascadia Code", "Fira Code", monospace; }
+  </style>
+  <defs>
+    <linearGradient id="animGrad_light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0077b6">
+        <animate attributeName="stop-color" values="#0077b6;#023e8a;#0077b6" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#023e8a">
+        <animate attributeName="stop-color" values="#023e8a;#0077b6;#023e8a" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <clipPath id="slideOpen_light">
+      <rect x="0" y="0" width="1000" height="0">
+        <animate attributeName="height" from="0" to="500" dur="1s" begin="0s" fill="freeze" />
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="100%" height="100%" rx="10" fill="#ffffff" stroke="url(#animGrad_light)" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" />
+  </rect>
+
+  <g clip-path="url(#slideOpen_light)">
+    <rect x="0" y="-50" width="100%" height="50" fill="url(#animGrad_light)" opacity="0.1">
+      <animateTransform attributeName="transform" type="translate" from="0 -50" to="0 550" dur="4s" repeatCount="indefinite" />
+    </rect>
+
+    <circle cx="25" cy="25" r="6" fill="#ff5f56" />
+    <circle cx="45" cy="25" r="6" fill="#ffbd2e" />
+    <circle cx="65" cy="25" r="6" fill="#27c93f" />
+    
+    <text x="500.0" y="30" class="terminal-text" font-size="14" fill="#24292f" text-anchor="middle">yegee0 ~ $ ./profile.sh --live</text>
+    
+    <text x="975" y="30" class="terminal-text" font-size="14" font-weight="bold" fill="url(#animGrad_light)" text-anchor="end">● SCANNING
+      <animate attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite" />
+    </text>
+    <line x1="0" y1="50" x2="1000" y2="50" stroke="#d0d7de" stroke-width="1"/>
+    
+    <text x="30" y="85" class="terminal-text" font-size="14" font-weight="bold" fill="url(#animGrad_light)">VISUAL.MAP</text>
+    <text x="30" y="110" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.:-=+++*********+++=-:.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="119" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.:=+**++==---------------==++**+=:.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="128" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.-+**+----=+++++++=======+++++++==--=+**+-.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="137" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.=**=-:-+**+=:.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.:=+**+=--+**=.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="146" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.=**=:-+**=:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:=+*+-:=**-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="155" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.+#+::+*+:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:+*+-:+#+.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="164" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.*#-.=#*-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:*#=:=#+.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="173" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.*%-.=#+.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;...-==+**+:..&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.+#+.=%+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="182" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-%+&#160;-%+.&#160;&#160;&#160;&#160;&#160;:-.&#160;&#160;&#160;&#160;&#160;&#160;&#160;.::----=@@=-=@@@+---::.&#160;&#160;&#160;&#160;&#160;&#160;&#160;-=-.&#160;&#160;&#160;&#160;&#160;+%=.+%-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="191" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;*%:.##.&#160;&#160;&#160;&#160;-#@*.&#160;&#160;&#160;&#160;&#160;:--:..:-:&#160;.**---@@@=--...:--:&#160;&#160;&#160;&#160;&#160;:#@#:&#160;.&#160;&#160;.*#::%+&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="200" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;.%*&#160;-%=&#160;&#160;-=:#@%-&#160;&#160;&#160;&#160;.:-:.&#160;&#160;&#160;:-.&#160;&#160;&#160;&#160;&#160;:-#@*:&#160;.--&#160;&#160;&#160;&#160;.:-:.&#160;&#160;&#160;&#160;=@@*:*-&#160;&#160;-%=&#160;##&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="209" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;.%+&#160;+%:&#160;&#160;*@:#%+-.&#160;&#160;.--:&#160;&#160;&#160;&#160;&#160;:-.&#160;&#160;&#160;&#160;&#160;&#160;:*+.&#160;&#160;&#160;&#160;&#160;--.&#160;&#160;&#160;&#160;&#160;:--.&#160;&#160;--+%=-@*&#160;&#160;.%+&#160;*%.&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="218" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;.%+&#160;*%.&#160;.*@+.+=#+&#160;&#160;:-:&#160;&#160;&#160;&#160;&#160;&#160;:-:&#160;&#160;&#160;&#160;&#160;&#160;&#160;.+.&#160;&#160;&#160;&#160;&#160;&#160;&#160;--&#160;&#160;&#160;&#160;&#160;&#160;&#160;:-:&#160;.*#++&#160;#@=:&#160;&#160;%*&#160;*%&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="227" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;#*&#160;+%..#.%@-*%%-&#160;.---:::::::--::::::::+#*-::::::---:::::::---.&#160;-#%*+@+-%&#160;&#160;%+&#160;##&#160;&#160;&#160;</text>
+    <text x="30" y="236" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;+@&#160;-@:&#160;#@&#160;#%%*+.&#160;.--.&#160;......--.......&#160;:@@@-&#160;......:-:......&#160;.--.&#160;-=+%@=-@+&#160;.@-.@=&#160;&#160;</text>
+    <text x="30" y="245" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;.@-&#160;@+&#160;.@@:*+-**&#160;&#160;--&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.-:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.-+-.&#160;&#160;&#160;&#160;&#160;&#160;&#160;.-:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;--&#160;.#*-+-=@%&#160;&#160;=@&#160;=@&#160;&#160;</text>
+    <text x="30" y="254" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;+%&#160;=@&#160;&#160;.@@=:*@#.&#160;:-.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:-&#160;&#160;&#160;&#160;&#160;&#160;-=&#160;-*@#-&#160;:=.&#160;&#160;&#160;&#160;:-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.-:&#160;.#@#:+@%.&#160;&#160;%+&#160;@=&#160;</text>
+    <text x="30" y="263" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;@=&#160;%+&#160;:.#@+%@+.&#160;.--&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;-=:-=+*@@=&#160;&#160;:%=&#160;&#160;:@@#+=-==.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;--.&#160;.=@%*@=:-&#160;=@&#160;*%&#160;</text>
+    <text x="30" y="272" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">:@:.@:&#160;#=.@%%:=-&#160;:-:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;+@@@@@@@@:&#160;&#160;&#160;#.&#160;&#160;&#160;@@@@@@@@+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:-.&#160;==.%@#&#160;**&#160;.@:-@.</text>
+    <text x="30" y="281" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">=@&#160;-@.&#160;#@.-%.+@.&#160;:--:::::::::#@@@@@@@@=&#160;&#160;.@-&#160;&#160;:@@@@@@@@%-::::::::--:&#160;.@+.#.-@*&#160;&#160;@-.@:</text>
+    <text x="30" y="290" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">=@&#160;=@&#160;&#160;=@%..+@*&#160;&#160;:-:........:@@@@@@@@@%&#160;&#160;:@=&#160;&#160;*@@@@@@@@@-........:-:&#160;&#160;*@*&#160;-@@-&#160;&#160;%=.@-</text>
+    <text x="30" y="299" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">=@&#160;-@&#160;&#160;&#160;%@#:@@:&#160;&#160;.-:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;=@@@@@@@@@@*&#160;:@+&#160;+@@@@@@@@@@#&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:-.&#160;.:@@-%@*&#160;&#160;&#160;@=.@:</text>
+    <text x="30" y="308" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">:@.:@.&#160;-.%@#@+.+&#160;&#160;--&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;%@@@@@@@@@@@#+@**@@@@@@@@@@@@.&#160;&#160;&#160;&#160;&#160;&#160;&#160;--&#160;&#160;#.=@#@+.+&#160;.@::@.</text>
+    <text x="30" y="317" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;@=&#160;@=&#160;*+.=%@&#160;=@.&#160;:-:&#160;&#160;&#160;&#160;&#160;&#160;:@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=&#160;&#160;&#160;&#160;&#160;&#160;:-.&#160;:@=&#160;@#::%+&#160;-@&#160;+%&#160;</text>
+    <text x="30" y="326" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;*%&#160;+%&#160;.@%-:*&#160;#@-&#160;&#160;:-.&#160;&#160;&#160;&#160;&#160;=@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#&#160;&#160;&#160;&#160;&#160;:-:&#160;&#160;=@#&#160;=:*@#&#160;&#160;#*&#160;@+&#160;</text>
+    <text x="30" y="335" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;.@-.@-&#160;:%@%=&#160;#@+.:&#160;:-:::::#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:::::-:&#160;=.+@#.+@@*&#160;&#160;-@.=@.&#160;</text>
+    <text x="30" y="344" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;+%&#160;=@.&#160;.=%@#+@#&#160;%=&#160;:--...%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@:.:--:&#160;*%&#160;#@*%@*-.&#160;&#160;%+&#160;@=&#160;&#160;</text>
+    <text x="30" y="353" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;%*&#160;##&#160;&#160;=:-*%@@&#160;+@+&#160;.--.&#160;:%@@@@@@@@@@@@@@@@@@@@@@@@@@@%-&#160;.-:.&#160;*@=.@%#=:=+&#160;&#160;##&#160;##&#160;&#160;&#160;</text>
+    <text x="30" y="362" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;.@=&#160;#*&#160;.*#=:-*=.@@-&#160;&#160;.--..=%@@@@@@@@@@@@@@@@@@@@@@@%+..-:..&#160;=@@.==--*%+&#160;&#160;*%&#160;+%.&#160;&#160;&#160;</text>
+    <text x="30" y="371" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;:@=&#160;##&#160;&#160;-%@%*+:=@@:+=..:-::=@@@@@@@@@@@@@@@@@@@@@*::-:.:++:@%--*%@@*:&#160;&#160;*#&#160;+%.&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="380" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;.%+&#160;+%:&#160;&#160;:*%@@%#@%:#@+.&#160;.:=@@@@@@@@@@@@@@@@@@@@@*:.&#160;:*@*:%@#%@%#+.&#160;&#160;.%*.*%.&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="389" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;.##.-%+&#160;&#160;.====++*+:=%@+:&#160;+@@@@@@@@@@@@@@@@@@@@@#&#160;:*@%=:++======.&#160;&#160;=%-:%*&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="398" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;=%=.*#-&#160;&#160;=*######**%@@%%@@@@@@@@@@@@@@@@@@@@@@%@@%##%#%%%#*-&#160;&#160;-#*:+%-&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="407" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.*#-:*#-&#160;&#160;.-+*****+=-=@@@@@@@@@@@@@@@@@@@@@@@+--=++++++:&#160;&#160;&#160;:**--#*.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="416" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:*#-:*#=.&#160;&#160;-=++++*%@@@@@@@@@@@@@@@@@@@@@@@@@@#**+++-&#160;&#160;.=#*--#*:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="425" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:*#=:=**-.&#160;.-++++=:*@@@@@@@@@@@@@@@@@@@#.-====-.&#160;&#160;-**+-=#*:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="434" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.=#*--+**=:&#160;&#160;&#160;&#160;&#160;&#160;:@@@@@@@@@@@@@@@@@@@+&#160;&#160;&#160;&#160;&#160;&#160;.=**+-=**=.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="443" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;:+**=-=+**+-:..@@@@@@@@@@@@@@@@@@@-.:-=+*+==+**=:&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="452" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.=+*+====++*%@@@@@@@@@@@@@@@@@%*+++==+**+-.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="461" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.-=+*+++=======+++++=======++**+=-.&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="30" y="470" class="terminal-text" font-size="7.5" fill="url(#animGrad_light)">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.:-==++***********++==-..&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+    <text x="420" y="80" class="terminal-text" font-size="14"><tspan fill="#00719c">[ SYSTEM_INFO ]</tspan></text>
+    <rect x="420" y="65" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="1.0s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="1.0s" fill="freeze" />
+    </rect>
+    <text x="420" y="100" class="terminal-text" font-size="14"><tspan fill="#00719c">Subject</tspan> <tspan fill="#a0a1a7">.............</tspan> <tspan fill="#24292f">Ata Yagiz Guner</tspan></text>
+    <rect x="420" y="85" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="1.08s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="1.08s" fill="freeze" />
+    </rect>
+    <text x="420" y="120" class="terminal-text" font-size="14"><tspan fill="#00719c">Role</tspan> <tspan fill="#a0a1a7">................</tspan> <tspan fill="#24292f">AI/ML Engineer</tspan></text>
+    <rect x="420" y="105" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="1.16s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="1.16s" fill="freeze" />
+    </rect>
+    <text x="420" y="140" class="terminal-text" font-size="14"><tspan fill="#00719c">Origin</tspan> <tspan fill="#a0a1a7">..............</tspan> <tspan fill="#24292f">Istanbul, Turkiye</tspan></text>
+    <rect x="420" y="125" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="1.24s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="1.24s" fill="freeze" />
+    </rect>
+    <text x="420" y="160" class="terminal-text" font-size="14"><tspan fill="#00719c">Education</tspan> <tspan fill="#a0a1a7">...........</tspan> <tspan fill="#24292f">Yeditepe University — Bsc. Computer Engineering</tspan></text>
+    <rect x="420" y="145" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="1.32s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="1.32s" fill="freeze" />
+    </rect>
+    <text x="420" y="180" class="terminal-text" font-size="14"><tspan fill="#00719c">Status</tspan> <tspan fill="#a0a1a7">..............</tspan> <tspan fill="#24292f">Building · Learning</tspan></text>
+    <rect x="420" y="165" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="1.4s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="1.4s" fill="freeze" />
+    </rect>
+    <text x="420" y="200" class="terminal-text" font-size="14"><tspan fill="#00719c">Toolchain</tspan> <tspan fill="#a0a1a7">...........</tspan> <tspan fill="#24292f">Jupyter, Git, Docker, Linux</tspan></text>
+    <rect x="420" y="185" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="1.48s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="1.48s" fill="freeze" />
+    </rect>
+    <text x="420" y="220" class="terminal-text" font-size="14"><tspan fill="#00719c">Interests</tspan> <tspan fill="#a0a1a7">...........</tspan> <tspan fill="#24292f">AI, Machine Learning</tspan></text>
+    <rect x="420" y="205" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="1.56s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="1.56s" fill="freeze" />
+    </rect>
+    <text x="420" y="260" class="terminal-text" font-size="14"><tspan fill="#00719c">Languages</tspan> <tspan fill="#a0a1a7">...........</tspan> <tspan fill="#24292f">Python, C++, Java</tspan></text>
+    <rect x="420" y="245" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="1.72s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="1.72s" fill="freeze" />
+    </rect>
+    <text x="420" y="280" class="terminal-text" font-size="14"><tspan fill="#00719c">AI &amp; Data Science</tspan> <tspan fill="#a0a1a7">...</tspan> <tspan fill="#24292f">PyTorch, TensorFlow, Keras, Scikit-learn, NumPy</tspan></text>
+    <rect x="420" y="265" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="1.8s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="1.8s" fill="freeze" />
+    </rect>
+    <text x="420" y="300" class="terminal-text" font-size="14"><tspan fill="#00719c">Tools &amp; Infra</tspan> <tspan fill="#a0a1a7">.......</tspan> <tspan fill="#24292f">Docker, FastAPI, Git, Jupyter, Linux</tspan></text>
+    <rect x="420" y="285" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="1.88s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="1.88s" fill="freeze" />
+    </rect>
+    <text x="420" y="340" class="terminal-text" font-size="14"><tspan fill="#a626a4">// CONTACT</tspan></text>
+    <rect x="420" y="325" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="2.04s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="2.04s" fill="freeze" />
+    </rect>
+    <text x="420" y="360" class="terminal-text" font-size="14"><tspan fill="#00719c">Mail</tspan> <tspan fill="#a0a1a7">................</tspan> <tspan fill="#24292f">yagizata05@gmail.com</tspan></text>
+    <rect x="420" y="345" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="2.12s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="2.12s" fill="freeze" />
+    </rect>
+    <text x="420" y="380" class="terminal-text" font-size="14"><tspan fill="#00719c">LinkedIn</tspan> <tspan fill="#a0a1a7">............</tspan> <tspan fill="#24292f">in/ata-yagiz-guner</tspan></text>
+    <rect x="420" y="365" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="2.2s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="2.2s" fill="freeze" />
+    </rect>
+    <text x="420" y="400" class="terminal-text" font-size="14"><tspan fill="#00719c">GitHub</tspan> <tspan fill="#a0a1a7">..............</tspan> <tspan fill="#24292f">yegee0</tspan></text>
+    <rect x="420" y="385" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="2.2800000000000002s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="2.2800000000000002s" fill="freeze" />
+    </rect>
+    <text x="420" y="440" class="terminal-text" font-size="14"><tspan fill="#a626a4">// LIVE_STATS</tspan>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;<tspan fill="#50a14f">see badges below ↓</tspan></text>
+    <rect x="420" y="425" width="560" height="25" fill="#ffffff">
+      <animate attributeName="x" from="420" to="980" dur="0.08s" begin="2.44s" fill="freeze" />
+      <animate attributeName="width" from="560" to="0" dur="0.08s" begin="2.44s" fill="freeze" />
+    </rect>
+
+    <rect x="769.4000000000001" y="428" width="10" height="15" fill="#50a14f" opacity="0">
+      <animate attributeName="opacity" values="0;1;0" dur="1s" begin="2.52s" repeatCount="indefinite" />
+    </rect>
+
+  </g>
+</svg>
