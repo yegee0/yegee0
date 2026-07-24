@@ -6,24 +6,31 @@
   </picture>
 </div> 
 
+<br />
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=20&pause=1000&color=00b4d8&center=true&vCenter=true&width=800&lines=AI%2FML+Engineer;AI+Enthusiast" alt="Typing SVG" />
+</div>
+
+<br />
+
 <!-- ─────────────  LANGUAGES & TOOLS  ───────────── -->
 <br>
 <h3 align="center">Languages</h3>
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=cpp,py,js,html,css&perline=8" alt="languages" />
+  <img src="https://skillicons.dev/icons?i=py,cpp,java&perline=8" alt="languages" />
 </div>
 
-<h3 align="center">Tools & Frameworks</h3>
+<h3 align="center">Tools, AI & Frameworks</h3>
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=react,nodejs,express,postgres,mongodb,docker,jenkins,git,arduino,linux&perline=10" alt="tools" />
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,keras,sklearn,opencv,fastapi,docker,linux,bash&perline=12" alt="tools-ai-frameworks" />
 </div>
 <br>
 
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=yegee0&show_icons=true&theme=dracula" height="165" alt="GitHub Stats" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=yegee0&layout=compact&theme=dracula" height="165" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=yegee0&show_icons=true&bg_color=0D1117&title_color=00b4d8&text_color=c9d1d9&icon_color=2dd4bf&border_color=30363d" height="165" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=yegee0&layout=compact&bg_color=0D1117&title_color=00b4d8&text_color=c9d1d9&border_color=30363d" height="165" alt="Top Languages" />
 </div>
 
 ### Commits in Space
