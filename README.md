@@ -6,12 +6,9 @@
   </picture>
 </div> 
 
-<br />
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=20&pause=1000&color=00b4d8&center=true&vCenter=true&width=800&lines=AI%2FML+Engineer;AI+Enthusiast" alt="Typing SVG" />
 </div>
-
-<br />
 
 <!-- ─────────────  LANGUAGES & TOOLS  ───────────── -->
 <br>
@@ -22,7 +19,7 @@
 
 <h3 align="center">Tools, AI & Frameworks</h3>
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,keras,sklearn,opencv,fastapi,docker,linux,bash&perline=12" alt="tools-ai-frameworks" />
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,fastapi,docker,linux,bash&perline=12" alt="tools-ai-frameworks" />
 </div>
 <br>
 
