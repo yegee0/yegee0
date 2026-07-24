@@ -6,10 +6,6 @@
   </picture>
 </div> 
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Inter&weight=600&size=20&pause=1000&color=00b4d8&center=true&vCenter=true&width=800&lines=AI%2FML+Engineer;AI+Enthusiast" alt="Typing SVG" />
-</div>
-
 <!-- ─────────────  LANGUAGES & TOOLS  ───────────── -->
 <br>
 <h3 align="center">Languages</h3>
