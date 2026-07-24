@@ -4,7 +4,7 @@
     <source media="(prefers-color-scheme: light)" srcset="assets/light.svg">
     <img alt="Terminal Hero Banner" src="assets/dark.svg" width="100%">
   </picture>
-</div>
+</div> 
 
 <!-- ─────────────  LANGUAGES & TOOLS  ───────────── -->
 <br>
